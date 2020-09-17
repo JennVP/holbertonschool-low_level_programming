@@ -5,12 +5,8 @@
  */
 int main(void)
 {
-int n = 0;
-while (n < 10)
-{
-printf("%d", n);
-n++;
-}
-putchar ('\n');
+char c;
+for (c = 'a' ; c <= 'z' ; c++)
+putchar (c);
 return (0);
 }
