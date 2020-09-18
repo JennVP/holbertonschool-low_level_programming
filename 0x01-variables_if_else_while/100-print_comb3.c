@@ -5,20 +5,20 @@
  */
 int main(void)
 {
-int c;
-c = 0;
-while (c < 100)
+int i, j;
+for (i = 0; i < 10; i++)
 {
-/*remove the last digit and print the first digit from 0 to 99*/
-putchar((c / 10) + '0');
-/*print last digit until 99*/
-putchar((c % 10) + '0');
-if (c < 99)
+for (j = 0; j < 10; j++)
 {
-putchar(',');
+if (j > i)
+{
+putchar(i + '0');
+putchar(j + '0');
 putchar(' ');
+putchar(',');
 }
-c++;
+
+}
 }
 putchar('\n');
 return (0);
