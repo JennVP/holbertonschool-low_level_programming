@@ -13,7 +13,7 @@ while (c < 100)
 putchar((c / 10) + '0');
 /*print last digit*/
 putchar((c % 10) + '0');
-if (c <= 99)
+if (c < 99)
 {
 putchar(',');
 putchar(' ');
