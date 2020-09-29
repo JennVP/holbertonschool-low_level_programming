@@ -1,11 +1,11 @@
 #include"holberton.h"
+#include <string.h>
 /**
  * rev_string - reverses a string
  * @s: string to reverse
  *
  * Return: void
  */
-
 void puts_half(char *str)
 {
 int len = 0, half = 0;
