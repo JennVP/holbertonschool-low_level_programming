@@ -1,8 +1,8 @@
 #include"holberton.h"
-#include <string.h>
+#include<string.h>
 /**
- * rev_string - reverses a string
- * @s: string to reverse
+ * puts_half - prints half the string
+ * @str: input string
  *
  * Return: void
  */
