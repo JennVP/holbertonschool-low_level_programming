@@ -1,3 +1,4 @@
+  
 #ifndef _STRCAT_H
 #define _STRCAT_H
 char *_strcat(char *dest, char *src);
@@ -16,4 +17,9 @@ char *_strncat(char *dest, char *src, int n);
 #ifndef _STRNCPY_H
 #define _STRNCPY_H
 char *_strncpy(char *dest, char *src, int n);
+#endif
+
+#ifndef _STRCMP_H
+#define _STRCMP_H
+int _strcmp(char *s1, char *s2);
 #endif
