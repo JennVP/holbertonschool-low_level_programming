@@ -27,3 +27,17 @@ int _strcmp(char *s1, char *s2);
 #define REVERSE_ARRAY_H
 void reverse_array(int *a, int n);
 #endif
+#ifndef STRING_TOUPPER_H
+#define STRING_TOUPPER_H
+char *string_toupper(char *);
+#endif
+
+#ifndef CAP_STRING_H
+#define CAP_STRING_H
+char *cap_string(char *);
+#endif
+
+#ifndef LEET_H
+#define LEET_H
+char *leet(char *);
+#endif
